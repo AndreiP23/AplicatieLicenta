@@ -1,0 +1,7 @@
+{
+  "ServerOptions": {
+    "DBadress": "D:\\pocketbase\\pb_data\\data.db",
+    "DBadressIP": "127.0.0.1",
+    "Port": "8090"
+  }
+}

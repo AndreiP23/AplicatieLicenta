@@ -1,0 +1,330 @@
+j;c;l;m;sp;lp;lb;nlt;fi;p;f;n;uma
+B;101;"Colegiul National ""Sfantul Sava""";URBAN;Matematica-Informatica;Limba romana;-;130;TER;REA;Zi;Liceal;01.09.1981
+B;102;"Colegiul National ""Sfantul Sava""";URBAN;Matematica-Informatica;Limba romana;Limba engleza;26;TER;REA;Zi;Liceal;01.09.1998
+B;103;"Colegiul National ""Sfantul Sava""";URBAN;Stiinte ale Naturii;Limba romana;-;26;TER;REA;Zi;Liceal;01.09.1984
+B;104;"Colegiul National ""Sfantul Sava""";URBAN;Filologie;Limba romana;-;26;TER;UMA;Zi;Liceal;01.09.1967
+B;105;"Colegiul National ""I.L.Caragiale""";URBAN;Matematica-Informatica;Limba romana;-;78;TER;REA;Zi;Liceal;01.09.1949
+B;106;"Colegiul National ""I.L.Caragiale""";URBAN;Matematica-Informatica;Limba romana;Limba germana;26;TER;REA;Zi;Liceal;01.09.1954
+B;108;"Colegiul National ""I.L.Caragiale""";URBAN;Matematica-Informatica;Limba romana;Limba engleza;26;TER;REA;Zi;Liceal;01.09.1960
+B;109;"Colegiul National ""I.L.Caragiale""";URBAN;Stiinte ale Naturii;Limba romana;-;26;TER;REA;Zi;Liceal;01.09.1949
+B;110;"Colegiul National ""I.L.Caragiale""";URBAN;Filologie;Limba romana;-;26;TER;UMA;Zi;Liceal;01.09.1931
+B;111;"Colegiul National ""I.L.Caragiale""";URBAN;Filologie;Limba romana;Limba germana;26;TER;UMA;Zi;Liceal;01.09.2020
+B;113;"Colegiul National ""I.L.Caragiale""";URBAN;Filologie;Limba romana;Limba engleza;26;TER;UMA;Zi;Liceal;01.09.1937
+B;114;"Colegiul National ""I.L.Caragiale""";URBAN;Stiinte Sociale;Limba romana;-;26;TER;UMA;Zi;Liceal;01.09.1943
+B;115;"Colegiul National de Informatica ""Tudor Vianu""";URBAN;Matematica-Informatica;Limba romana;-;208;TER;REA;Zi;Liceal;01.09.1976
+B;116;"Colegiul National de Informatica ""Tudor Vianu""";URBAN;Matematica-Informatica;Limba romana;Limba germana;26;TER;REA;Zi;Liceal;01.09.1975
+B;117;"Colegiul National ""Aurel Vlaicu""";URBAN;Matematica-Informatica;Limba romana;-;52;TER;REA;Zi;Liceal;01.08.1947
+B;118;"Colegiul National ""Aurel Vlaicu""";URBAN;Stiinte ale Naturii;Limba romana;-;52;TER;REA;Zi;Liceal;01.08.1970
+B;119;"Colegiul National ""Aurel Vlaicu""";URBAN;Filologie;Limba romana;-;52;TER;UMA;Zi;Liceal;01.08.1951
+B;120;"Colegiul German ""Goethe""";URBAN;Teor.real spec.germana;Limba germana;-;25;TER;REA;Zi;Liceal;01.09.1932
+B;121;"Colegiul German ""Goethe""";URBAN;Matematica-Informatica;Limba germana;-;26;TER;REA;Zi;Liceal;01.08.1982
+B;122;"Colegiul German ""Goethe""";URBAN;Filologie;Limba germana;-;26;TER;UMA;Zi;Liceal;01.08.1955
+B;123;"Colegiul German ""Goethe""";URBAN;Teor.uman.spec.germana;Limba germana;-;25;TER;UMA;Zi;Liceal;-
+B;124;"Colegiul National ""Ion Neculce""";URBAN;Matematica-Informatica;Limba romana;-;78;TER;REA;Zi;Liceal;01.09.2028
+B;125;"Colegiul National ""Ion Neculce""";URBAN;Stiinte ale Naturii;Limba romana;-;26;TER;REA;Zi;Liceal;01.09.1931
+B;126;"Colegiul National ""Ion Neculce""";URBAN;Filologie;Limba romana;-;26;TER;UMA;Zi;Liceal;01.09.2018
+B;127;"Colegiul National ""Ion Neculce""";URBAN;Filologie;Limba romana;Limba italiana;26;TER;UMA;Zi;Liceal;09.03.2023
+B;129;"Colegiul National ""Ion Neculce""";URBAN;Stiinte Sociale;Limba romana;-;26;TER;UMA;Zi;Liceal;01.09.2022
+B;130;"Liceul Teoretic ""Jean Monnet""";URBAN;Matematica-Informatica;Limba romana;-;52;TER;REA;Zi;Liceal;01.09.2024
+B;131;"Liceul Teoretic ""Jean Monnet""";URBAN;Stiinte ale Naturii;Limba romana;-;26;TER;REA;Zi;Liceal;01.09.2020
+B;132;"Liceul Teoretic ""Jean Monnet""";URBAN;Stiinte Sociale;Limba romana;-;52;TER;UMA;Zi;Liceal;09.09.2023
+B;133;"Liceul Teoretic ""C-tin Brancoveanu""";URBAN;Matematica-Informatica;Limba romana;-;26;TER;REA;Zi;Liceal;01.08.1946
+B;134;"Liceul Teoretic ""C-tin Brancoveanu""";URBAN;Stiinte ale Naturii;Limba romana;-;52;TER;REA;Zi;Liceal;01.08.2020
+B;135;"Liceul Teoretic ""C-tin Brancoveanu""";URBAN;Filologie;Limba romana;-;52;TER;UMA;Zi;Liceal;01.08.2022
+B;136;"Liceul Teoretic ""C-tin Brancoveanu""";URBAN;Stiinte Sociale;Limba romana;-;52;TER;UMA;Zi;Liceal;01.08.2020
+B;137;"Liceul Teoretic ""Nicolae Iorga""";URBAN;Matematica-Informatica;Limba romana;-;52;TER;REA;Zi;Liceal;01.09.1946
+B;138;"Liceul Teoretic ""Nicolae Iorga""";URBAN;Stiinte ale Naturii;Limba romana;-;26;TER;REA;Zi;Liceal;01.09.1940
+B;139;"Liceul Teoretic ""Nicolae Iorga""";URBAN;Stiinte ale Naturii;Limba romana;Limba engleza;26;TER;REA;Zi;Liceal;01.09.1942
+B;140;"Liceul Teoretic ""Nicolae Iorga""";URBAN;Filologie;Limba romana;-;26;TER;UMA;Zi;Liceal;01.09.2025
+B;141;"Liceul Teoretic ""Nicolae Iorga""";URBAN;Stiinte Sociale;Limba romana;-;26;TER;UMA;Zi;Liceal;01.09.1930
+B;142;"Liceul Teoretic ""Alexandru Vlahuta""";URBAN;Filologie;Limba romana;-;52;TER;UMA;Zi;Liceal;01.08.1993
+B;143;"Liceul Teoretic ""Alexandru Vlahuta""";URBAN;Filologie;Limba romana;Limba germana;26;TER;UMA;Zi;Liceal;01.08.1963
+B;145;"Liceul Teoretic Bilingv ""Miguel de Cervantes""";URBAN;Matematica-Informatica;Limba romana;-;26;TER;REA;Zi;Liceal;01.09.2021
+B;146;"Liceul Teoretic Bilingv ""Miguel de Cervantes""";URBAN;Matematica-Informatica;Limba romana;Limba spaniola;26;TER;REA;Zi;Liceal;01.08.1954
+B;147;"Liceul Teoretic Bilingv ""Miguel de Cervantes""";URBAN;Filologie;Limba romana;-;26;TER;UMA;Zi;Liceal;09.03.2023
+B;148;"Liceul Teoretic Bilingv ""Miguel de Cervantes""";URBAN;Filologie;Limba romana;Limba spaniola;26;TER;UMA;Zi;Liceal;01.08.2017
+B;149;"Liceul Teoretic Bulgar ""Hristo Botev""";URBAN;Matematica-Informatica;Limba romana;-;26;TER;REA;Zi;Liceal;01.07.1975
+B;150;"Liceul Teoretic Bulgar ""Hristo Botev""";URBAN;Filologie;Limba romana;-;26;TER;UMA;Zi;Liceal;01.07.1997
+B;151;"Liceul Teoretic Bulgar ""Hristo Botev""";URBAN;Filologie;Limba romani (rromani);-;26;TER;UMA;Zi;Liceal;-
+B;152;"Liceul Teoretic Bulgar ""Hristo Botev""";URBAN;Filologie;Limba bulgara;-;9;TER;UMA;Zi;Liceal;-
+B;153;"Liceul Teoretic Bulgar ""Hristo Botev""";URBAN;Filologie;Limba neogreaca;-;9;TER;UMA;Zi;Liceal;-
+B;154;"Liceul Teoretic Bulgar ""Hristo Botev""";URBAN;Filologie;Limba rusa;-;8;TER;UMA;Zi;Liceal;-
+B;155;"Liceul Greco-Catolic ""Timotei Cipariu""";URBAN;Matematica-Informatica;Limba romana;-;26;TER;REA;Zi;Liceal;08.10.2023
+B;156;"Colegiul Economic ""V. Madgearu""";URBAN;Economic;Limba romana;-;216;THN;SRV;Zi;Liceal;01.08.1985
+B;157;"Colegiul Economic ""V. Madgearu""";URBAN;Turism Si alimentatie;Limba romana;-;24;THN;SRV;Zi;Liceal;09.01.2023
+B;158;"Colegiul Tehnic ""Dinicu Golescu""";URBAN;Turism Si alimentatie;Limba romana;-;48;THN;SRV;Zi;Liceal;01.06.1961
+B;159;"Colegiul Tehnic ""Dinicu Golescu""";URBAN;Mecanica;Limba romana;-;24;THN;TEH;Zi;Liceal;01.05.2029
+B;160;"Colegiul Tehnic ""Media""";URBAN;Stiinte ale Naturii;Limba romana;-;26;TER;REA;Zi;Liceal;-
+B;161;"Colegiul Tehnic ""Media""";URBAN;Productie media;Limba romana;-;120;THN;TEH;Zi;Liceal;01.06.1940
+B;162;"Colegiul Tehnic Mecanic ""Grivita""";URBAN;Filologie;Limba romana;-;26;TER;UMA;Zi;Liceal;01.07.1976
+B;163;"Colegiul Tehnic Mecanic ""Grivita""";URBAN;Mecanica;Limba romana;-;24;THN;TEH;Zi;Liceal;-
+B;164;"Liceul Teoretic ""George Calinescu""";URBAN;Matematica-Informatica;Limba romana;-;78;TER;REA;Zi;Liceal;09.08.2023
+B;165;"Liceul Teoretic ""George Calinescu""";URBAN;Filologie;Limba romana;-;78;TER;UMA;Zi;Liceal;01.08.1997
+B;166;"Colegiul Tehnic de Aeronautica ""Henri Coanda""";URBAN;Matematica-Informatica;Limba romana;-;26;TER;REA;Zi;Liceal;01.07.1993
+B;167;"Colegiul Tehnic de Aeronautica ""Henri Coanda""";URBAN;Filologie;Limba romana;-;26;TER;UMA;Zi;Liceal;01.07.1998
+B;168;"Colegiul Tehnic de Aeronautica ""Henri Coanda""";URBAN;Mecanica;Limba romana;-;24;THN;TEH;Zi;Liceal;01.07.1938
+B;169;"Colegiul Tehnic de Aeronautica ""Henri Coanda""";URBAN;Electromecanica;Limba romana;-;72;THN;TEH;Zi;Liceal;01.06.1955
+B;170;"Colegiul Tehnic Feroviar ""Mihai I""";URBAN;Matematica-Informatica;Limba romana;-;26;TER;REA;Zi;Liceal;01.07.1949
+B;171;"Colegiul Tehnic Feroviar ""Mihai I""";URBAN;Stiinte ale Naturii;Limba romana;-;26;TER;REA;Zi;Liceal;01.07.1941
+B;172;"Colegiul Tehnic ""Mircea cel Batran""";URBAN;Economic;Limba romana;-;48;THN;SRV;Zi;Liceal;01.06.1989
+B;173;"Colegiul Tehnic ""Mircea cel Batran""";URBAN;Mecanica;Limba romana;-;48;THN;TEH;Zi;Liceal;05.01.2023
+B;174;"Colegiul Tehnic de Arhitectura Si Lucrari Publice ""Ioan N. Socolescu""";URBAN;Matematica-Informatica;Limba romana;-;26;TER;REA;Zi;Liceal;01.08.2013
+B;175;"Colegiul Tehnic de Arhitectura Si Lucrari Publice ""Ioan N. Socolescu""";URBAN;Constructii, instalatii Si lucrari publice;Limba romana;-;24;THN;TEH;Zi;Liceal;01.07.1932
+B;176;"Colegiul Tehnologic ""Viaceslav Harnaj""";URBAN;Economic;Limba romana;-;24;THN;SRV;Zi;Liceal;01.07.1948
+B;177;"Colegiul Tehnologic ""Viaceslav Harnaj""";URBAN;Turism Si alimentatie;Limba romana;-;24;THN;SRV;Zi;Liceal;01.07.1935
+B;178;"Colegiul Tehnologic ""Viaceslav Harnaj""";URBAN;Agricultura;Limba romana;-;48;THN;RES;Zi;Liceal;01.05.1970
+B;179;"Liceul ""Dimitrie Paciurea""";URBAN;Filologie;Limba romana;-;26;TER;UMA;Zi;Liceal;01.07.1998
+B;180;"Colegiul National ""Mihai Viteazul""";URBAN;Matematica-Informatica;Limba romana;-;208;TER;REA;Zi;Liceal;01.09.1961
+B;181;"Colegiul National ""Mihai Viteazul""";URBAN;Stiinte ale Naturii;Limba romana;-;52;TER;REA;Zi;Liceal;01.09.1963
+B;182;"Colegiul National ""Cantemir Voda""";URBAN;Matematica-Informatica;Limba romana;-;78;TER;REA;Zi;Liceal;01.09.1942
+B;183;"Colegiul National ""Cantemir Voda""";URBAN;Matematica-Informatica;Limba romana;Limba engleza;26;TER;REA;Zi;Liceal;01.09.1955
+B;184;"Colegiul National ""Cantemir Voda""";URBAN;Stiinte ale Naturii;Limba romana;-;26;TER;REA;Zi;Liceal;01.09.1943
+B;185;"Colegiul National ""Iulia HaSdeu""";URBAN;Matematica-Informatica;Limba romana;-;52;TER;REA;Zi;Liceal;01.09.1947
+B;186;"Colegiul National ""Iulia HaSdeu""";URBAN;Matematica-Informatica;Limba romana;Limba engleza;26;TER;REA;Zi;Liceal;01.09.1958
+B;187;"Colegiul National ""Iulia HaSdeu""";URBAN;Stiinte ale Naturii;Limba romana;-;26;TER;REA;Zi;Liceal;01.09.1948
+B;188;"Colegiul National ""Iulia HaSdeu""";URBAN;Filologie;Limba romana;-;52;TER;UMA;Zi;Liceal;01.09.1931
+B;189;"Colegiul National ""Iulia HaSdeu""";URBAN;Filologie;Limba romana;Limba spaniola;26;TER;UMA;Zi;Liceal;01.08.2021
+B;190;"Colegiul National ""Iulia HaSdeu""";URBAN;Filologie;Limba romana;Limba engleza;26;TER;UMA;Zi;Liceal;01.09.1937
+B;191;"Colegiul National ""Spiru Haret""";URBAN;Matematica-Informatica;Limba romana;-;52;TER;REA;Zi;Liceal;01.09.1975
+B;192;"Colegiul National ""Spiru Haret""";URBAN;Matematica-Informatica;Limba romana;Limba engleza;26;TER;REA;Zi;Liceal;01.09.1984
+B;193;"Colegiul National ""Spiru Haret""";URBAN;Stiinte ale Naturii;Limba romana;-;52;TER;REA;Zi;Liceal;01.09.1968
+B;194;"Colegiul National ""Spiru Haret""";URBAN;Filologie;Limba romana;-;26;TER;UMA;Zi;Liceal;01.09.1955
+B;195;"Colegiul National ""Spiru Haret""";URBAN;Stiinte Sociale;Limba romana;-;52;TER;UMA;Zi;Liceal;01.09.1960
+B;196;"Colegiul National Bilingv ""George CoSbuc""";URBAN;Matematica-Informatica;Limba romana;Limba engleza;52;TER;REA;Zi;Liceal;01.09.1962
+B;197;"Colegiul National Bilingv ""George CoSbuc""";URBAN;Stiinte ale Naturii;Limba romana;Limba engleza;26;TER;REA;Zi;Liceal;01.09.1960
+B;198;"Colegiul National Bilingv ""George CoSbuc""";URBAN;Filologie;Limba romana;Limba engleza;52;TER;UMA;Zi;Liceal;01.09.1948
+B;199;"Colegiul National Bilingv ""George CoSbuc""";URBAN;Stiinte Sociale;Limba romana;Limba engleza;26;TER;UMA;Zi;Liceal;01.09.1959
+B;200;"Colegiul National ""Scoala Centrala""";URBAN;Matematica-Informatica;Limba romana;-;52;TER;REA;Zi;Liceal;01.09.2029
+B;201;"Colegiul National ""Scoala Centrala""";URBAN;Matematica-Informatica;Limba romana;Limba franceza;26;TER;REA;Zi;Liceal;01.09.2013
+B;202;"Colegiul National ""Scoala Centrala""";URBAN;Filologie;Limba romana;-;78;TER;UMA;Zi;Liceal;01.09.2012
+B;203;"Colegiul National ""Scoala Centrala""";URBAN;Filologie;Limba romana;Limba franceza;26;TER;UMA;Zi;Liceal;01.08.1989
+B;204;"Colegiul National ""Emil Racovita""";URBAN;Matematica-Informatica;Limba romana;-;26;TER;REA;Zi;Liceal;09.01.2023
+B;205;"Colegiul National ""Emil Racovita""";URBAN;Filologie;Limba romana;-;26;TER;UMA;Zi;Liceal;01.08.1991
+B;206;"Colegiul National ""Victor BabeS""";URBAN;Matematica-Informatica;Limba romana;-;26;TER;REA;Zi;Liceal;01.08.1994
+B;207;"Colegiul National ""Victor BabeS""";URBAN;Stiinte ale Naturii;Limba romana;-;104;TER;REA;Zi;Liceal;01.08.1956
+B;208;"Colegiul National ""Victor BabeS""";URBAN;Filologie;Limba romana;-;26;TER;UMA;Zi;Liceal;01.08.1974
+B;209;"Colegiul National ""Victor BabeS""";URBAN;Stiinte Sociale;Limba romana;-;26;TER;UMA;Zi;Liceal;01.08.1970
+B;210;"Liceul Teoretic ""Ady Endre""";URBAN;Stiinte ale Naturii;Limba maghiara;-;26;TER;REA;Zi;Liceal;01.05.1976
+B;211;"Liceul Teoretic ""Lucian Blaga""";URBAN;Matematica-Informatica;Limba romana;-;26;TER;REA;Zi;Liceal;01.08.1938
+B;212;"Liceul Teoretic ""Lucian Blaga""";URBAN;Stiinte ale Naturii;Limba romana;-;52;TER;REA;Zi;Liceal;01.08.2019
+B;213;"Liceul Teoretic ""Lucian Blaga""";URBAN;Filologie;Limba romana;-;26;TER;UMA;Zi;Liceal;01.08.2022
+B;214;"Liceul Teoretic ""Lucian Blaga""";URBAN;Stiinte Sociale;Limba romana;-;52;TER;UMA;Zi;Liceal;01.08.2023
+B;215;"Liceul Teoretic ""Mihail Sadoveanu""";URBAN;Matematica-Informatica;Limba romana;-;78;TER;REA;Zi;Liceal;01.08.1955
+B;216;"Liceul Teoretic ""Mihail Sadoveanu""";URBAN;Filologie;Limba romana;-;26;TER;UMA;Zi;Liceal;01.08.1954
+B;217;"Liceul Teoretic ""Mihail Sadoveanu""";URBAN;Stiinte Sociale;Limba romana;-;52;TER;UMA;Zi;Liceal;01.08.1960
+B;218;"Liceul Teoretic ""C.A. Rosetti""";URBAN;Matematica-Informatica;Limba romana;-;78;TER;REA;Zi;Liceal;01.09.2013
+B;219;"Liceul Teoretic ""C.A. Rosetti""";URBAN;Stiinte ale Naturii;Limba romana;-;78;TER;REA;Zi;Liceal;09.06.2023
+B;220;"Liceul Teoretic ""C.A. Rosetti""";URBAN;Filologie;Limba romana;-;26;TER;UMA;Zi;Liceal;09.03.2023
+B;221;"Liceul Teoretic Bilingv ""Ita Wegman""";URBAN;Stiinte ale Naturii;Limba romana;Limba germana;26;TER;REA;Zi;Liceal;-
+B;222;"Liceul Teoretic ""Traian""";URBAN;Matematica-Informatica;Limba romana;-;26;TER;REA;Zi;Liceal;01.08.2026
+B;223;"Liceul Teoretic ""Traian""";URBAN;Stiinte ale Naturii;Limba romana;-;52;TER;REA;Zi;Liceal;08.04.2023
+B;224;"Liceul Teoretic ""Traian""";URBAN;Filologie;Limba romana;-;52;TER;UMA;Zi;Liceal;08.08.2023
+B;225;"Liceul Teoretic ""Traian""";URBAN;Stiinte Sociale;Limba romana;-;52;TER;UMA;Zi;Liceal;08.08.2023
+B;226;"Colegiul Tehnic ""Edmond Nicolau""";URBAN;Mecanica;Limba romana;-;24;THN;TEH;Zi;Liceal;01.05.1948
+B;227;"Colegiul Tehnic ""Edmond Nicolau""";URBAN;Electronica automatizari;Limba romana;-;24;THN;TEH;Zi;Liceal;-
+B;228;"Colegiul Tehnic ""Dimitrie Leonida""";URBAN;Stiinte ale Naturii;Limba romana;-;26;TER;REA;Zi;Liceal;01.07.1971
+B;229;"Colegiul Tehnic ""Dimitrie Leonida""";URBAN;Electronica automatizari;Limba romana;-;24;THN;TEH;Zi;Liceal;01.06.2022
+B;230;"Colegiul Tehnic ""Dimitrie Leonida""";URBAN;Mecanica;Limba romana;-;24;THN;TEH;Zi;Liceal;01.04.1996
+B;231;"Colegiul Tehnic ""Dimitrie Leonida""";URBAN;Protectia mediului;Limba romana;-;24;THN;RES;Zi;Liceal;-
+B;232;"Liceul Tehnologic ""Sfantul Pantelimon""";URBAN;Stiinte ale Naturii;Limba romana;-;52;TER;REA;Zi;Liceal;-
+B;233;"Liceul Tehnologic ""Sfantul Pantelimon""";URBAN;Stiinte Sociale;Limba romana;-;26;TER;UMA;Zi;Liceal;01.07.1973
+B;234;"Liceul Tehnologic ""Sfantul Pantelimon""";URBAN;Mecanica;Limba romana;-;24;THN;TEH;Zi;Liceal;06.07.2023
+B;235;"Liceul Tehnologic ""Constantin BrancuSi""";URBAN;Turism Si alimentatie;Limba romana;-;24;THN;SRV;Zi;Liceal;01.07.1953
+B;236;"Liceul Tehnologic ""Constantin BrancuSi""";URBAN;Fabricarea produselor din lemn;Limba romana;-;24;THN;TEH;Zi;Liceal;01.05.1999
+B;237;"Liceul Tehnologic ""Constantin BrancuSi""";URBAN;Protectia mediului;Limba romana;-;24;THN;RES;Zi;Liceal;06.07.2023
+B;238;"Liceul Tehnologic ""Ion I.C. Bratianu""";URBAN;Turism Si alimentatie;Limba romana;-;24;THN;SRV;Zi;Liceal;01.05.1982
+B;239;"Liceul Tehnologic ""Ion I.C. Bratianu""";URBAN;Mecanica;Limba romana;-;24;THN;TEH;Zi;Liceal;01.05.1982
+B;240;"Liceul Tehnologic ""Nikola Tesla""";URBAN;Economic;Limba romana;-;12;THN;SRV;Zi;Liceal;01.07.2016
+B;241;"Liceul Tehnologic ""Nikola Tesla""";URBAN;Electronica automatizari;Limba romana;-;12;THN;TEH;Zi;Liceal;-
+B;242;"Colegiul Economic ""A.D.Xenopol""";URBAN;Economic;Limba romana;-;144;THN;SRV;Zi;Liceal;01.08.1946
+B;243;"Colegiul Economic ""A.D.Xenopol""";URBAN;Turism Si alimentatie;Limba romana;-;48;THN;SRV;Zi;Liceal;01.08.1944
+B;244;"Colegiul Economic ""Hermes""";URBAN;Economic;Limba romana;-;96;THN;SRV;Zi;Liceal;01.08.2021
+B;245;"Colegiul Economic ""Hermes""";URBAN;Turism Si alimentatie;Limba romana;-;48;THN;SRV;Zi;Liceal;01.08.2013
+B;246;"Colegiul Economic ""Hermes""";URBAN;Comert;Limba romana;-;48;THN;SRV;Zi;Liceal;08.04.2023
+B;247;"Colegiul National ""Matei Basarab""";URBAN;Matematica-Informatica;Limba romana;-;104;TER;REA;Zi;Liceal;01.09.1954
+B;248;"Colegiul National ""Matei Basarab""";URBAN;Stiinte ale Naturii;Limba romana;-;52;TER;REA;Zi;Liceal;01.09.1952
+B;249;"Colegiul National ""Matei Basarab""";URBAN;Filologie;Limba romana;-;26;TER;UMA;Zi;Liceal;01.09.1944
+B;250;"Colegiul National ""Matei Basarab""";URBAN;Stiinte Sociale;Limba romana;-;26;TER;UMA;Zi;Liceal;01.09.1949
+B;251;"Liceul Teoretic ""Alexandru Ioan Cuza""";URBAN;Matematica-Informatica;Limba romana;-;130;TER;REA;Zi;Liceal;01.09.1936
+B;252;"Liceul Teoretic ""Alexandru Ioan Cuza""";URBAN;Stiinte ale Naturii;Limba romana;-;26;TER;REA;Zi;Liceal;01.09.1937
+B;253;"Liceul Teoretic ""Alexandru Ioan Cuza""";URBAN;Stiinte Sociale;Limba romana;-;52;TER;UMA;Zi;Liceal;01.09.2022
+B;254;"Liceul Teoretic ""Dante Alighieri""";URBAN;Matematica-Informatica;Limba romana;-;52;TER;REA;Zi;Liceal;09.06.2023
+B;255;"Liceul Teoretic ""Dante Alighieri""";URBAN;Matematica-Informatica;Limba romana;Limba italiana;26;TER;REA;Zi;Liceal;01.04.1981
+B;256;"Liceul Teoretic ""Dante Alighieri""";URBAN;Stiinte ale Naturii;Limba romana;-;26;TER;REA;Zi;Liceal;09.05.2023
+B;257;"Liceul Teoretic ""Dante Alighieri""";URBAN;Stiinte ale Naturii;Limba italiana;-;26;TER;REA;Zi;Liceal;-
+B;258;"Liceul Teoretic ""Dante Alighieri""";URBAN;Filologie;Limba romana;-;26;TER;UMA;Zi;Liceal;01.08.1997
+B;259;"Liceul Teoretic ""Dante Alighieri""";URBAN;Filologie;Limba romana;Limba italiana;26;TER;UMA;Zi;Liceal;01.07.2016
+B;260;"Liceul Teoretic ""Benjamin Franklin""";URBAN;Matematica-Informatica;Limba romana;-;52;TER;REA;Zi;Liceal;01.08.1942
+B;261;"Liceul Teoretic ""Benjamin Franklin""";URBAN;Stiinte ale Naturii;Limba romana;-;52;TER;REA;Zi;Liceal;01.08.1941
+B;262;"Liceul Teoretic ""Benjamin Franklin""";URBAN;Filologie;Limba romana;-;52;TER;UMA;Zi;Liceal;01.08.1944
+B;263;"Liceul Teoretic ""Nichita Stanescu""";URBAN;Matematica-Informatica;Limba romana;-;52;TER;REA;Zi;Liceal;01.08.2018
+B;264;"Liceul Teoretic ""Nichita Stanescu""";URBAN;Stiinte Sociale;Limba romana;-;78;TER;UMA;Zi;Liceal;01.08.2015
+B;265;"Liceul Teoretic ""Decebal""";URBAN;Matematica-Informatica;Limba romana;-;26;TER;REA;Zi;Liceal;08.10.2023
+B;266;"Liceul Teoretic ""Decebal""";URBAN;Filologie;Limba romana;-;26;TER;UMA;Zi;Liceal;08.04.2023
+B;267;"Liceul Teoretic ""Decebal""";URBAN;Filologie;Limba romana;Limba engleza;26;TER;UMA;Zi;Liceal;-
+B;268;"Liceul Teoretic ""Decebal""";URBAN;Stiinte Sociale;Limba romana;-;78;TER;UMA;Zi;Liceal;09.08.2002
+B;269;"Scoala Superioara Comerciala ""Nicolae Kretzulescu""";URBAN;Comert;Limba romana;-;24;THN;SRV;Zi;Liceal;01.08.1972
+B;270;"Scoala Superioara Comerciala ""Nicolae Kretzulescu""";URBAN;Economic;Limba romana;-;144;THN;SRV;Zi;Liceal;01.08.1973
+B;271;"Scoala Superioara Comerciala ""Nicolae Kretzulescu""";URBAN;Turism Si alimentatie;Limba romana;-;24;THN;SRV;Zi;Liceal;01.08.1983
+B;272;"Colegiul Tehnic ""Costin D. Nenitescu""";URBAN;Stiinte ale Naturii;Limba romana;-;26;TER;REA;Zi;Liceal;01.07.1970
+B;273;"Colegiul Tehnic ""Costin D. Nenitescu""";URBAN;Chimie industriala;Limba romana;-;24;THN;TEH;Zi;Liceal;-
+B;274;"Colegiul Tehnic ""Costin D. Nenitescu""";URBAN;Protectia mediului;Limba romana;-;24;THN;RES;Zi;Liceal;01.06.1954
+B;275;"Colegiul Tehnic ""Costin D. Nenitescu""";URBAN;Industrie alimentara;Limba romana;-;48;THN;RES;Zi;Liceal;05.07.2000
+B;276;"Colegiul Tehnic ""Costin D. Nenitescu""";URBAN;Electric;Limba romana;-;24;THN;TEH;Zi;Liceal;-
+B;277;"Colegiul Tehnic ""Anghel Saligny""";URBAN;Constructii, instalatii Si lucrari publice;Limba romana;-;24;THN;TEH;Zi;Liceal;01.05.1944
+B;278;"Colegiul Tehnic ""Anghel Saligny""";URBAN;Mecanica;Limba romana;-;24;THN;TEH;Zi;Liceal;01.04.1998
+B;279;"Colegiul Tehnic ""Anghel Saligny""";URBAN;Electric;Limba romana;-;24;THN;TEH;Zi;Liceal;-
+B;280;"Colegiul Tehnic ""Anghel Saligny""";URBAN;Economic;Limba romana;-;24;THN;SRV;Zi;Liceal;-
+B;281;"Colegiul Tehnic ""Anghel Saligny""";URBAN;Protectia mediului;Limba romana;-;24;THN;RES;Zi;Liceal;01.05.1982
+B;282;"Colegiul Tehnic ""Mihai Bravu""";URBAN;Stiinte ale Naturii;Limba romana;-;26;TER;REA;Zi;Liceal;01.07.1992
+B;283;"Colegiul Tehnic ""Mihai Bravu""";URBAN;Turism Si alimentatie;Limba romana;-;48;THN;SRV;Zi;Liceal;01.07.1978
+B;284;"Colegiul Tehnic ""Mihai Bravu""";URBAN;Constructii, instalatii Si lucrari publice;Limba romana;-;48;THN;TEH;Zi;Liceal;05.07.2023
+B;285;"Colegiul Tehnic ""Mihai Bravu""";URBAN;Mecanica;Limba romana;-;48;THN;TEH;Zi;Liceal;01.04.1968
+B;286;"Colegiul Tehnic ""Mihai Bravu""";URBAN;Electric;Limba romana;-;24;THN;TEH;Zi;Liceal;-
+B;287;"Liceul Tehnologic ""Elie Radu""";URBAN;Economic;Limba romana;-;48;THN;SRV;Zi;Liceal;01.06.2016
+B;288;"Liceul Tehnologic ""Elie Radu""";URBAN;Mecanica;Limba romana;-;24;THN;TEH;Zi;Liceal;05.03.2023
+B;289;"Liceul Tehnologic ""Dragomir Hurmuzescu""";URBAN;Economic;Limba romana;-;24;THN;SRV;Zi;Liceal;01.07.1968
+B;290;"Liceul Tehnologic ""Dragomir Hurmuzescu""";URBAN;Estetica Si igiena corpului omenesc;Limba romana;-;24;THN;SRV;Zi;Liceal;01.06.1965
+B;291;"Liceul Tehnologic ""Dragomir Hurmuzescu""";URBAN;Electromecanica;Limba romana;-;24;THN;TEH;Zi;Liceal;01.04.1992
+B;292;Liceul Tehnologic Theodor Pallady;URBAN;Electric;Limba romana;-;24;THN;TEH;Zi;Liceal;-
+B;293;"Colegiul National ""Mihai Eminescu""";URBAN;Matematica-Informatica;Limba romana;-;104;TER;REA;Zi;Liceal;01.09.2028
+B;294;"Colegiul National ""Mihai Eminescu""";URBAN;Stiinte ale Naturii;Limba romana;-;26;TER;REA;Zi;Liceal;01.09.1934
+B;295;"Colegiul National ""Mihai Eminescu""";URBAN;Filologie;Limba romana;-;52;TER;UMA;Zi;Liceal;01.09.2019
+B;296;"Colegiul National ""Mihai Eminescu""";URBAN;Stiinte Sociale;Limba romana;-;26;TER;UMA;Zi;Liceal;01.09.2024
+B;297;"Colegiul National ""Gheorghe Sincai""";URBAN;Matematica-Informatica;Limba romana;-;130;TER;REA;Zi;Liceal;01.09.1969
+B;298;"Colegiul National ""Gheorghe Sincai""";URBAN;Stiinte ale Naturii;Limba romana;-;52;TER;REA;Zi;Liceal;01.09.1967
+B;299;"Colegiul National ""Gheorghe Sincai""";URBAN;Filologie;Limba romana;-;52;TER;UMA;Zi;Liceal;01.09.1957
+B;300;"Colegiul National ""Ion Creanga""";URBAN;Matematica-Informatica;Limba romana;-;52;TER;REA;Zi;Liceal;01.09.1947
+B;301;"Colegiul National ""Ion Creanga""";URBAN;Matematica-Informatica;Limba romana;Limba engleza;26;TER;REA;Zi;Liceal;01.09.1952
+B;302;"Colegiul National ""Ion Creanga""";URBAN;Stiinte ale Naturii;Limba romana;-;52;TER;REA;Zi;Liceal;01.09.1944
+B;303;"Colegiul National ""Ion Creanga""";URBAN;Filologie;Limba romana;-;52;TER;UMA;Zi;Liceal;01.09.1933
+B;304;"Colegiul National ""Ion Creanga""";URBAN;Stiinte Sociale;Limba romana;-;26;TER;UMA;Zi;Liceal;01.09.1939
+B;305;"Colegiul National ""Octav Onicescu""";URBAN;Matematica-Informatica;Limba romana;-;104;TER;REA;Zi;Liceal;01.08.1966
+B;306;"Colegiul National ""Octav Onicescu""";URBAN;Filologie;Limba romana;-;52;TER;UMA;Zi;Liceal;01.08.1966
+B;307;"Colegiul National ""Octav Onicescu""";URBAN;Stiinte Sociale;Limba romana;-;52;TER;UMA;Zi;Liceal;01.08.1972
+B;308;"Colegiul Romano-Catolic ""Sfantul Iosif""";URBAN;Stiinte ale Naturii;Limba romana;-;26;TER;REA;Zi;Liceal;01.08.1967
+B;309;"Liceul Teologic Adventist ""Stefan Demetrescu""";URBAN;Matematica-Informatica;Limba romana;-;26;TER;REA;Zi;Liceal;01.08.1987
+B;310;"Liceul Tehnologic de Metrologie ""Traian Vuia""";URBAN;Matematica-Informatica;Limba romana;-;26;TER;REA;Zi;Liceal;01.07.1979
+B;311;"Liceul Tehnologic de Metrologie ""Traian Vuia""";URBAN;Stiinte ale Naturii;Limba romana;-;26;TER;REA;Zi;Liceal;01.07.1958
+B;312;"Liceul Tehnologic de Metrologie ""Traian Vuia""";URBAN;Electric;Limba romana;-;24;THN;TEH;Zi;Liceal;01.06.1953
+B;313;"Liceul Tehnologic de Metrologie ""Traian Vuia""";URBAN;Electronica automatizari;Limba romana;-;24;THN;TEH;Zi;Liceal;06.08.2023
+B;314;"Liceul Tehnologic de Metrologie ""Traian Vuia""";URBAN;Industrie textila Si pielarie;Limba romana;-;48;THN;TEH;Zi;Liceal;-
+B;315;"Liceul Tehnologic de Metrologie ""Traian Vuia""";URBAN;Protectia mediului;Limba romana;-;24;THN;RES;Zi;Liceal;01.06.1931
+B;316;"Liceul Tehnologic ""Dacia""";URBAN;Electric;Limba romana;-;24;THN;TEH;Zi;Liceal;-
+B;317;"Liceul Tehnologic ""Dacia""";URBAN;Protectia mediului;Limba romana;-;24;THN;RES;Zi;Liceal;-
+B;318;"Liceul Tehnologic ""Mircea Vulcanescu""";URBAN;Economic;Limba romana;-;120;THN;SRV;Zi;Liceal;01.07.1953
+B;319;"Liceul Tehnologic ""Mircea Vulcanescu""";URBAN;Turism Si alimentatie;Limba romana;-;48;THN;SRV;Zi;Liceal;01.07.1966
+B;320;"Colegiul National ""Gheorghe Lazar""";URBAN;Matematica-Informatica;Limba romana;-;78;TER;REA;Zi;Liceal;01.09.1990
+B;321;"Colegiul National ""Gheorghe Lazar""";URBAN;Stiinte ale Naturii;Limba romana;-;78;TER;REA;Zi;Liceal;01.09.1984
+B;322;"Colegiul National ""Gheorghe Lazar""";URBAN;Filologie;Limba romana;-;26;TER;UMA;Zi;Liceal;01.09.1969
+B;323;"Colegiul National ""Gheorghe Lazar""";URBAN;Stiinte Sociale;Limba romana;-;52;TER;UMA;Zi;Liceal;01.09.1973
+B;324;"Liceul Teoretic ""Ion Barbu""";URBAN;Matematica-Informatica;Limba romana;-;52;TER;REA;Zi;Liceal;01.09.2020
+B;325;"Liceul Teoretic ""Ion Barbu""";URBAN;Stiinte ale Naturii;Limba romana;-;52;TER;REA;Zi;Liceal;09.10.2023
+B;326;"Liceul Teoretic ""Ion Barbu""";URBAN;Stiinte Sociale;Limba romana;-;52;TER;UMA;Zi;Liceal;09.03.2023
+B;327;"Liceul Teoretic ""Dimitrie Bolintineanu""";URBAN;Matematica-Informatica;Limba romana;-;52;TER;REA;Zi;Liceal;01.08.1933
+B;328;"Liceul Teoretic ""Dimitrie Bolintineanu""";URBAN;Stiinte ale Naturii;Limba romana;-;52;TER;REA;Zi;Liceal;01.08.2022
+B;329;"Liceul Teoretic ""Dimitrie Bolintineanu""";URBAN;Filologie;Limba romana;-;52;TER;UMA;Zi;Liceal;01.08.1935
+B;330;"Liceul Teoretic ""Dimitrie Bolintineanu""";URBAN;Stiinte Sociale;Limba romana;-;26;TER;UMA;Zi;Liceal;01.08.1955
+B;331;"Liceul Teoretic ""Stefan Odobleja""";URBAN;Matematica-Informatica;Limba romana;-;78;TER;REA;Zi;Liceal;01.08.1983
+B;332;"Liceul Teoretic ""Stefan Odobleja""";URBAN;Stiinte ale Naturii;Limba romana;-;26;TER;REA;Zi;Liceal;01.08.1989
+B;333;"Liceul Teoretic ""Stefan Odobleja""";URBAN;Filologie;Limba romana;-;26;TER;UMA;Zi;Liceal;01.08.1980
+B;334;"Liceul Teoretic ""Stefan Odobleja""";URBAN;Stiinte Sociale;Limba romana;-;26;TER;UMA;Zi;Liceal;01.08.1985
+B;335;Colegiul Tehnic Energetic;URBAN;Matematica-Informatica;Limba romana;-;26;TER;REA;Zi;Liceal;-
+B;336;Colegiul Tehnic Energetic;URBAN;Filologie;Limba romana;-;52;TER;UMA;Zi;Liceal;01.07.1944
+B;337;Colegiul Tehnic Energetic;URBAN;Turism Si alimentatie;Limba romana;-;24;THN;SRV;Zi;Liceal;01.06.1962
+B;338;Colegiul Tehnic Energetic;URBAN;Electric;Limba romana;-;24;THN;TEH;Zi;Liceal;01.05.1981
+B;339;Colegiul Tehnic Energetic;URBAN;Electromecanica;Limba romana;-;12;THN;TEH;Zi;Liceal;-
+B;340;Colegiul Tehnic Energetic;URBAN;Mecanica;Limba romana;-;12;THN;TEH;Zi;Liceal;05.07.2023
+B;341;"Colegiul Tehnic de Industrie Alimentara ""Dumitru Motoc""";URBAN;Industrie alimentara;Limba romana;-;120;THN;RES;Zi;Liceal;01.05.2018
+B;342;"Liceul Tehnologic ""Dimitrie Gusti""";URBAN;Stiinte ale Naturii;Limba romana;-;26;TER;REA;Zi;Liceal;-
+B;343;"Liceul Tehnologic ""Dimitrie Gusti""";URBAN;Stiinte Sociale;Limba romana;-;52;TER;UMA;Zi;Liceal;01.07.1993
+B;344;"Liceul Tehnologic ""Dimitrie Gusti""";URBAN;Mecanica;Limba romana;-;24;THN;TEH;Zi;Liceal;01.04.1989
+B;345;"Colegiul Tehnologic ""Grigore Cerchez""";URBAN;Stiinte ale Naturii;Limba romana;-;26;TER;REA;Zi;Liceal;01.07.1956
+B;346;"Colegiul Tehnologic ""Grigore Cerchez""";URBAN;Stiinte Sociale;Limba romana;-;26;TER;UMA;Zi;Liceal;01.07.1973
+B;347;"Colegiul Tehnologic ""Grigore Cerchez""";URBAN;Mecanica;Limba romana;-;24;THN;TEH;Zi;Liceal;06.08.2001
+B;348;"Colegiul Tehnologic ""Grigore Cerchez""";URBAN;Economic;Limba romana;-;24;THN;SRV;Zi;Liceal;01.06.1981
+B;349;"Colegiul Tehnologic ""Grigore Cerchez""";URBAN;Turism Si alimentatie;Limba romana;-;96;THN;SRV;Zi;Liceal;06.09.2023
+B;350;"Colegiul Economic ""Viilor""";URBAN;Turism Si alimentatie;Limba romana;-;192;THN;SRV;Zi;Liceal;07.08.2023
+B;351;"Colegiul Economic ""Viilor""";URBAN;Economic;Limba romana;-;96;THN;SRV;Zi;Liceal;01.07.1942
+B;352;"Colegiul Economic ""Viilor""";URBAN;Comert;Limba romana;-;48;THN;SRV;Zi;Liceal;01.06.1992
+B;353;"Colegiul National ""Elena Cuza""";URBAN;Matematica-Informatica;Limba romana;-;52;TER;REA;Zi;Liceal;01.09.1933
+B;354;"Colegiul National ""Elena Cuza""";URBAN;Filologie;Limba romana;Limba engleza;26;TER;UMA;Zi;Liceal;01.09.2015
+B;355;"Colegiul National ""Elena Cuza""";URBAN;Filologie;Limba romana;-;26;TER;UMA;Zi;Liceal;01.09.2014
+B;356;"Colegiul National ""Grigore Moisil""";URBAN;Matematica-Informatica;Limba romana;-;78;TER;REA;Zi;Liceal;01.09.1963
+B;357;"Colegiul National ""Grigore Moisil""";URBAN;Stiinte ale Naturii;Limba romana;-;26;TER;REA;Zi;Liceal;01.09.1960
+B;358;"Colegiul National ""Grigore Moisil""";URBAN;Filologie;Limba romana;-;26;TER;UMA;Zi;Liceal;01.09.1940
+B;359;"Colegiul National ""Grigore Moisil""";URBAN;Stiinte Sociale;Limba romana;-;26;TER;UMA;Zi;Liceal;01.09.1951
+B;360;"Liceul Teoretic ""Marin Preda""";URBAN;Matematica-Informatica;Limba romana;-;26;TER;REA;Zi;Liceal;01.08.1956
+B;361;"Liceul Teoretic ""Marin Preda""";URBAN;Stiinte ale Naturii;Limba romana;-;26;TER;REA;Zi;Liceal;01.08.1949
+B;362;"Liceul Teoretic ""Marin Preda""";URBAN;Filologie;Limba romana;-;26;TER;UMA;Zi;Liceal;01.08.1941
+B;363;"Liceul Teoretic ""Marin Preda""";URBAN;Stiinte Sociale;Limba romana;-;52;TER;UMA;Zi;Liceal;01.08.1939
+B;364;"Liceul Teoretic ""Tudor Vladimirescu""";URBAN;Matematica-Informatica;Limba romana;-;52;TER;REA;Zi;Liceal;09.09.2002
+B;365;"Liceul Teoretic ""Tudor Vladimirescu""";URBAN;Stiinte ale Naturii;Limba romana;-;52;TER;REA;Zi;Liceal;01.08.1990
+B;366;"Liceul Teoretic ""Tudor Vladimirescu""";URBAN;Filologie;Limba romana;-;26;TER;UMA;Zi;Liceal;01.08.1989
+B;367;"Liceul Teoretic ""Tudor Vladimirescu""";URBAN;Stiinte Sociale;Limba romana;-;52;TER;UMA;Zi;Liceal;01.08.1984
+B;368;"Liceul Teoretic ""Eugen Lovinescu""";URBAN;Matematica-Informatica;Limba romana;-;52;TER;REA;Zi;Liceal;01.08.1970
+B;369;"Liceul Teoretic ""Eugen Lovinescu""";URBAN;Filologie;Limba romana;-;52;TER;UMA;Zi;Liceal;01.08.1975
+B;370;"Liceul Teoretic ""Eugen Lovinescu""";URBAN;Filologie;Limba romana;Limba portugheza;26;TER;UMA;Zi;Liceal;01.08.1956
+B;371;"Liceul Tehnologic ""Sf. Antim Ivireanu""";URBAN;Comert;Limba romana;-;24;THN;SRV;Zi;Liceal;01.07.1994
+B;372;"Liceul Tehnologic ""Sf. Antim Ivireanu""";URBAN;Turism Si alimentatie;Limba romana;-;24;THN;SRV;Zi;Liceal;01.07.1997
+B;373;"Colegiul Tehnic de PoSta Si Telecomunicatii ""Gheorghe Airinei""";URBAN;Stiinte ale Naturii;Limba romana;-;26;TER;REA;Zi;Liceal;01.07.1975
+B;374;"Colegiul Tehnic de PoSta Si Telecomunicatii ""Gheorghe Airinei""";URBAN;Stiinte Sociale;Limba romana;-;26;TER;UMA;Zi;Liceal;01.07.1984
+B;375;"Colegiul Tehnic de PoSta Si Telecomunicatii ""Gheorghe Airinei""";URBAN;Electronica automatizari;Limba romana;-;24;THN;TEH;Zi;Liceal;01.06.1930
+B;376;"Colegiul Tehnic de PoSta Si Telecomunicatii ""Gheorghe Airinei""";URBAN;Economic;Limba romana;-;48;THN;SRV;Zi;Liceal;01.06.1965
+B;377;"Colegiul Tehnic de PoSta Si Telecomunicatii ""Gheorghe Airinei""";URBAN;Turism Si alimentatie;Limba romana;-;48;THN;SRV;Zi;Liceal;01.06.1979
+B;378;"Colegiul Tehnic ""Petru Maior""";URBAN;Matematica-Informatica;Limba romana;-;26;TER;REA;Zi;Liceal;01.08.1934
+B;379;"Colegiul Tehnic ""Petru Maior""";URBAN;Filologie;Limba romana;-;26;TER;UMA;Zi;Liceal;01.08.2027
+B;380;"Colegiul Tehnic ""Petru Maior""";URBAN;Stiinte Sociale;Limba romana;-;26;TER;UMA;Zi;Liceal;01.08.2023
+B;381;"Colegiul Tehnic ""Petru Maior""";URBAN;Protectia mediului;Limba romana;-;24;THN;RES;Zi;Liceal;-
+B;382;"Colegiul Tehnic ""Petru Maior""";URBAN;Electric;Limba romana;-;24;THN;TEH;Zi;Liceal;01.06.1993
+B;383;"Colegiul Tehnic ""Petru Maior""";URBAN;Mecanica;Limba romana;-;24;THN;TEH;Zi;Liceal;01.05.1983
+B;384;"Liceul Tehnologic ""Petru Poni""";URBAN;Electric;Limba romana;-;24;THN;TEH;Zi;Liceal;-
+B;385;"Liceul Tehnologic ""Petru Poni""";URBAN;Mecanica;Limba romana;-;24;THN;TEH;Zi;Liceal;05.11.2021
+B;386;"Liceul Tehnologic ""Petru Poni""";URBAN;Economic;Limba romana;-;48;THN;SRV;Zi;Liceal;01.06.2029
+B;387;"Colegiul Tehnic ""Iuliu Maniu""";URBAN;Stiinte ale Naturii;Limba romana;-;26;TER;REA;Zi;Liceal;01.07.1930
+B;388;"Colegiul Tehnic ""Iuliu Maniu""";URBAN;Stiinte Sociale;Limba romana;-;26;TER;UMA;Zi;Liceal;01.07.1955
+B;389;"Colegiul Tehnic ""Iuliu Maniu""";URBAN;Electric;Limba romana;-;24;THN;TEH;Zi;Liceal;-
+B;390;"Colegiul Tehnic ""Iuliu Maniu""";URBAN;Mecanica;Limba romana;-;24;THN;TEH;Zi;Liceal;01.05.1947
+B;391;"Colegiul Tehnic ""Iuliu Maniu""";URBAN;Turism Si alimentatie;Limba romana;-;48;THN;SRV;Zi;Liceal;06.02.2023
+B;392;"Liceul cu Program Sportiv ""Mircea Eliade""";URBAN;Stiinte ale Naturii;Limba romana;-;26;TER;REA;Zi;Liceal;01.08.2017
+B;393;"Liceul cu Program Sportiv ""Mircea Eliade""";URBAN;Stiinte Sociale;Limba romana;-;26;TER;UMA;Zi;Liceal;01.08.2029
+B;394;"Colegiul Tehnic ""Gheorghe Asachi""";URBAN;Stiinte Sociale;Limba romana;-;26;TER;UMA;Zi;Liceal;-
+B;395;"Colegiul Tehnic ""Gheorghe Asachi""";URBAN;Industrie textila Si pielarie;Limba romana;-;24;THN;TEH;Zi;Liceal;01.06.2027
+B;396;"Colegiul Tehnic ""Gheorghe Asachi""";URBAN;Productie media;Limba romana;-;48;THN;TEH;Zi;Liceal;01.06.1953
+B;397;"Colegiul Tehnic ""Carol I""";URBAN;Stiinte ale Naturii;Limba romana;-;26;TER;REA;Zi;Liceal;01.07.1950
+B;398;"Colegiul Tehnic ""Carol I""";URBAN;Protectia mediului;Limba romana;-;24;THN;RES;Zi;Liceal;-
+B;399;"Colegiul Tehnic ""Carol I""";URBAN;Mecanica;Limba romana;-;24;THN;TEH;Zi;Liceal;01.05.2016
+B;400;"Colegiul Economic ""Costin C. Kiritescu""";URBAN;Economic;Limba romana;-;120;THN;SRV;Zi;Liceal;01.08.1934
+B;401;"Colegiul Economic ""Costin C. Kiritescu""";URBAN;Turism Si alimentatie;Limba romana;-;48;THN;SRV;Zi;Liceal;01.08.2023
+B;900;"Colegiul National ""Aurel Vlaicu""";URBAN;Sportiv;Limba romana;-;24;VOC;SPO;Zi;Liceal;-
+B;901;"Liceul de Arte Plastice ""Nicolae Tonitza""";URBAN;Arte plastice Si Decorative;Limba romana;-;144;VOC;ART;Zi;Liceal;-
+B;902;"Liceul ""Dimitrie Paciurea""";URBAN;Arte plastice Si Decorative;Limba romana;-;48;VOC;ART;Zi;Liceal;-
+B;903;"Colegiul National de Muzica ""George Enescu""";URBAN;Muzica;Limba romana;-;48;VOC;ART;Zi;Liceal;-
+B;904;"Liceul Greco-Catolic ""Timotei Cipariu""";URBAN;Ghid turism religios catolic;Limba romana;-;24;VOC;TEO;Zi;Liceal;-
+B;905;"Colegiul Tehnic ""Media""";URBAN;Sportiv;Limba romana;-;48;VOC;SPO;Zi;Liceal;-
+B;906;"Colegiul Tehnic ""Dinicu Golescu""";URBAN;Sportiv;Limba romana;-;48;VOC;SPO;Zi;Liceal;-
+B;907;"Colegiul Tehnic Feroviar ""Mihai I""";URBAN;Sportiv;Limba romana;-;72;VOC;SPO;Zi;Liceal;-
+B;908;"Colegiul Tehnic Mecanic ""Grivita""";URBAN;Sportiv;Limba romana;-;24;VOC;SPO;Zi;Liceal;-
+B;909;"Colegiul Tehnic de Arhitectura Si Lucrari Publice ""Ioan N. Socolescu""";URBAN;Arhitectura, Arte  ambientale Si Design;Limba romana;-;72;VOC;ART;Zi;Liceal;-
+B;910;"Colegiul National ""Emil Racovita""";URBAN;Sportiv;Limba romana;-;48;VOC;SPO;Zi;Liceal;-
+B;911;"Colegiul Tehnic ""Edmond Nicolau""";URBAN;Sportiv;Limba romana;-;24;VOC;SPO;Zi;Liceal;-
+B;912;"Liceul Teoretic ""Traian""";URBAN;Sportiv;Limba romana;-;24;VOC;SPO;Zi;Liceal;-
+B;913;Liceul Teoretic Waldorf;URBAN;Waldorf Filologie;Limba romana;-;26;VOC;WAL;Zi;Liceal;-
+B;914;"Liceul Tehnologic ""Sfantul Pantelimon""";URBAN;Sportiv;Limba romana;-;24;VOC;SPO;Zi;Liceal;-
+B;915;"Liceul Teologic Baptist ""Logos""";URBAN;Teologie baptista;Limba romana;-;24;VOC;TEO;Zi;Liceal;-
+B;916;"Colegiul Tehnic ""Anghel Saligny""";URBAN;Sportiv;Limba romana;-;48;VOC;SPO;Zi;Liceal;-
+B;917;"Liceul Tehnologic ""Elie Radu""";URBAN;Sportiv;Limba romana;-;48;VOC;SPO;Zi;Liceal;-
+B;918;"Liceul Teoretic ""Benjamin Franklin""";URBAN;Sportiv;Limba romana;-;24;VOC;SPO;Zi;Liceal;-
+B;919;"Liceul de Coregrafie ""Floria Capsali""";URBAN;Coregrafie;Limba romana;-;24;VOC;ART;Zi;Liceal;-
+B;920;"Colegiul National de Arte ""Dinu Lipatti""";URBAN;Muzica;Limba romana;-;48;VOC;ART;Zi;Liceal;-
+B;921;"Colegiul National de Arte ""Dinu Lipatti""";URBAN;Arta actorului;Limba romana;-;24;VOC;ART;Zi;Liceal;-
+B;922;Seminarul Teologic Ortodox;URBAN;Teologie ortodoxa;Limba romana;-;48;VOC;TEO;Zi;Liceal;-
+B;923;"Colegiul Romano-Catolic ""Sfantul Iosif""";URBAN;Ghid turism religios catolic;Limba romana;-;24;VOC;TEO;Zi;Liceal;-
+B;924;"Liceul Teologic Adventist ""Stefan Demetrescu""";URBAN;Teologie adventista;Limba romana;-;48;VOC;TEO;Zi;Liceal;-
+B;925;"Liceul Teologic Penticostal ""Emanuel""";URBAN;Teologie penticostala;Limba romana;-;48;VOC;TEO;Zi;Liceal;-
+B;926;"Liceul Tehnologic ""Dacia""";URBAN;Sportiv;Limba romana;-;24;VOC;SPO;Zi;Liceal;-
+B;927;"Colegiul National ""Elena Cuza""";URBAN;Educator - puericultor;Limba romana;-;24;VOC;PED;Zi;Liceal;-
+B;928;"Colegiul National ""Elena Cuza""";URBAN;Învatatori - educatoare;Limba romana;-;24;VOC;PED;Zi;Liceal;-
+B;929;"Liceul cu Program Sportiv ""Mircea Eliade""";URBAN;Sportiv;Limba romana;-;96;VOC;SPO;Zi;Liceal;-
+B;930;"Colegiul Tehnic de PoSta Si Telecomunicatii ""Gheorghe Airinei""";URBAN;Sportiv;Limba romana;-;24;VOC;SPO;Zi;Liceal;-
+B;931;"Colegiul Tehnic ""Iuliu Maniu""";URBAN;Sportiv;Limba romana;-;24;VOC;SPO;Zi;Liceal;-
