@@ -83,8 +83,8 @@ namespace LicentaNou2.Repositories
             }
             SQLiteParameter sqlQParam = new SQLiteParameter("@limba", limba);
             SQLiteParameter sqlQParam1 = new SQLiteParameter("@profil", profil);
-            SQLiteParameter sqlQParam2 = new SQLiteParameter("@valInf", valInf);
-            SQLiteParameter sqlQParam3 = new SQLiteParameter("@valSup", valSup);
+            SQLiteParameter sqlQParam2 = new SQLiteParameter("@valInf", valInf > valSup ? valSup: valInf);
+            SQLiteParameter sqlQParam3 = new SQLiteParameter("@valSup", valSup < valInf ? valInf : valSup);
             var result = _dbCon.ExecuteQueryWithPram<LiceuViewModel>(sqlQ, sqlQParam, sqlQParam1, sqlQParam2, sqlQParam3);
             return await result;
         }

@@ -36,7 +36,7 @@ namespace LicentaNou2.Views
                 var Records = await _poketbase.Collections("users").GetFullList();
                 var test = await _poketbase.Collections("users").AuthWithPassword(userName, passworrd);
 
-                if (test != null && Records.Contains(userName))
+                if (test != null && Records.Contains($"\"username\":\"{userName}\""))
                 {
                     Authorized = true;
                     Close();

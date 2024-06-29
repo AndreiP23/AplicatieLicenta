@@ -52,54 +52,6 @@ namespace LicentaNou2.Presenters
         {
             List<Diff> result = await _detaliiRepo.GetLiceeProfil(data.Profil, data.Categorie);
 
-            //List<int> existingYears = result.Select(year => year.AN.Year).ToList();
-            //List<int> missingYears = targetYears.Except(existingYears).ToList();
-            //foreach (int year in missingYears)
-            //{
-            //    result.Add(new DataPrepModel() { AN = new DateTime(year, 1, 1) });
-            //}
-            //List<double> inputsUMA = new List<double>();
-            //List<double> inputsNLTrap = new List<double>();
-            //foreach (var elem in result)
-            //{
-            //    if (elem.UMA == 0)
-            //    {
-            //        elem.UMA = result.Where(r => r.AN == elem.AN.AddYears(1)).Select(r => r.UM).FirstOrDefault();
-            //        elem.NLT = result.Where(r => r.AN == elem.AN.AddYears(1)).Select(r => r.NLT).FirstOrDefault();
-            //    }
-            //    inputsUMA.Add(elem.UMA);
-            //    inputsNLTrap.Add(elem.NLT);
-            //}
-            //pentru forcast mai ok
-            //result.Add(new DataPrepModel() { AN = DateTime.Parse("1 Jan 2019"), UMA = result.Min(x => x.UMA), NLT = result.Min(x => x.NLT) });
-            //result.Add(new DataPrepModel() { AN = DateTime.Parse("1 Jan 2018"), UMA = result.Min(x => x.UMA), NLT = result.Min(x => x.NLT) });
-            //result = result.OrderBy(x => x.AN.Year).ToList();
-
-            #region Regresie Veche
-            //for (int i = 0; i < targetYears.Count; i++)
-            //{
-            //    double div = 1;
-            //    if (resultsMEV.Count <= i)//nu exista date prespup ca anul trecut/ select minim ( worst scenario )
-            //    {
-            //        div = 56;// acum este inutil
-            //    }
-            //    else
-            //    {
-            //        div = 72;// acum este inutil
-            //    }
-            //    inputsNLTrap[i] = Math.Round(inputsNLTrap[i], 2); // indicator cati elevi cu medie mai mare per an per loc
-            //}
-            //double rSquared, intercept, slope, stdDev;
-            //Util.Methods methodsInstance = new Util.Methods();
-            //methodsInstance.LinearRegression(inputsUMA.ToArray(), inputsNLTrap.ToArray(), out rSquared, out intercept, out slope, out stdDev);
-            ////double preditedMEVUp = inputsUMA.Last() + stdDev;
-            ////double preditedMEVDown = inputsUMA.Last() - stdDev;
-            //double zScore = (data.MedieGenerala - inputsUMA.Last()) / stdDev;
-            //// Using the Cumulative Distribution Function of the standard normal distribution
-            //double probability = MathNet.Numerics.Distributions.Normal.CDF(inputsUMA.Last(), stdDev, zScore);
-            //sansa = probability * 100; // Convert to percentage
-            #endregion
-
             LinearRegression regr = new LinearRegression();
             double sansa = regr.PredictNextValue(result.Select(x => x.value).ToArray());
 
