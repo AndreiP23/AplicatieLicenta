@@ -1,0 +1,80 @@
+name: CI Build & Test
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+    branches: ["**"]
+
+permissions:
+  contents: read
+
+jobs:
+  build_test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node: [18, 20]
+
+    outputs:
+      node_version: ${{ steps.meta.outputs.node_version }}
+      commit_sha: ${{ steps.meta.outputs.commit_sha }}
+      files_count: ${{ steps.meta.outputs.files_count }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Meta outputs
+        id: meta
+        shell: bash
+        run: |
+          echo "node_version=${{ matrix.node }}" >> "$GITHUB_OUTPUT"
+          echo "commit_sha=${GITHUB_SHA}" >> "$GITHUB_OUTPUT"
+          files_count=$(git ls-files | wc -l | tr -d ' ')
+          echo "files_count=${files_count}" >> "$GITHUB_OUTPUT"
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+          cache: npm
+
+      - name: Install deps (best effort)
+        shell: bash
+        run: |
+          if [ -f package-lock.json ] || [ -f npm-shrinkwrap.json ]; then
+            npm ci
+          elif [ -f package.json ]; then
+            npm install
+          else
+            echo "No package.json found; skipping npm install."
+          fi
+
+      - name: Run tests (best effort)
+        shell: bash
+        run: |
+          if [ -f package.json ]; then
+            npm test --if-present
+          else
+            echo "No package.json found; skipping tests."
+          fi
+
+      - name: Create artifact
+        shell: bash
+        run: |
+          mkdir -p out
+          {
+            echo "repo=${GITHUB_REPOSITORY}"
+            echo "ref=${GITHUB_REF}"
+            echo "sha=${GITHUB_SHA}"
+            echo "node=${{ matrix.node }}"
+            echo "files_count=${{ steps.meta.outputs.files_count }}"
+          } > out/summary.txt
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: repo-summary-node-${{ matrix.node }}
+          path: out/summary.txt

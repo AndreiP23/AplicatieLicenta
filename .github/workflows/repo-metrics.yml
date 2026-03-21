@@ -1,0 +1,57 @@
+name: Repo Metrics (.NET)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["**"]
+
+permissions:
+  contents: read
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    outputs:
+      total_files: ${{ steps.counts.outputs.total_files }}
+      sln_count: ${{ steps.counts.outputs.sln_count }}
+      csproj_count: ${{ steps.counts.outputs.csproj_count }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Count things
+        id: counts
+        shell: bash
+        run: |
+          total_files=$(git ls-files | wc -l | tr -d ' ')
+          sln_count=$(ls -1 **/*.sln 2>/dev/null | wc -l | tr -d ' ')
+          csproj_count=$(ls -1 **/*.csproj 2>/dev/null | wc -l | tr -d ' ')
+          echo "total_files=${total_files}" >> "$GITHUB_OUTPUT"
+          echo "sln_count=${sln_count}" >> "$GITHUB_OUTPUT"
+          echo "csproj_count=${csproj_count}" >> "$GITHUB_OUTPUT"
+
+      - name: Save metrics
+        shell: bash
+        run: |
+          mkdir -p out
+          {
+            echo "total_files=${{ steps.counts.outputs.total_files }}"
+            echo "sln_count=${{ steps.counts.outputs.sln_count }}"
+            echo "csproj_count=${{ steps.counts.outputs.csproj_count }}"
+          } > out/metrics.txt
+
+      - name: Job summary
+        shell: bash
+        run: |
+          {
+            echo "## Repo Metrics"
+            echo ""
+            echo "- total_files: **${{ steps.counts.outputs.total_files }}**"
+            echo "- sln_count: **${{ steps.counts.outputs.sln_count }}**"
+            echo "- csproj_count: **${{ steps.counts.outputs.csproj_count }}**"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: repo-metrics
+          path: out/metrics.txt

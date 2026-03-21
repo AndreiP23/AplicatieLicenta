@@ -1,0 +1,49 @@
+name: Manual Inputs Test
+
+on:
+  workflow_dispatch:
+    inputs:
+      configuration:
+        description: "Build configuration"
+        required: true
+        default: "Release"
+        type: choice
+        options: [Debug, Release]
+      run_count:
+        description: "How many lines to generate"
+        required: true
+        default: "5"
+
+permissions:
+  contents: read
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    outputs:
+      configuration: ${{ steps.o.outputs.configuration }}
+      run_count: ${{ steps.o.outputs.run_count }}
+
+    steps:
+      - name: Outputs + generated file
+        id: o
+        shell: bash
+        run: |
+          echo "configuration=${{ inputs.configuration }}" >> "$GITHUB_OUTPUT"
+          echo "run_count=${{ inputs.run_count }}" >> "$GITHUB_OUTPUT"
+          mkdir -p out
+          for i in $(seq 1 "${{ inputs.run_count }}"); do
+            echo "${i}: config=${{ inputs.configuration }} sha=${GITHUB_SHA}" >> out/generated.txt
+          done
+
+      - name: Summary
+        shell: bash
+        run: |
+          echo "## Manual Inputs Test" >> "$GITHUB_STEP_SUMMARY"
+          echo "- configuration: **${{ steps.o.outputs.configuration }}**" >> "$GITHUB_STEP_SUMMARY"
+          echo "- run_count: **${{ steps.o.outputs.run_count }}**" >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: manual-inputs-${{ inputs.configuration }}
+          path: out/generated.txt

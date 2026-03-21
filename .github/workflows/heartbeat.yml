@@ -1,0 +1,27 @@
+name: Heartbeat
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 9 * * *" # daily 09:00 UTC
+
+permissions:
+  contents: read
+
+jobs:
+  heartbeat:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Emit heartbeat
+        shell: bash
+        run: |
+          mkdir -p out
+          ts=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          echo "heartbeat_ts=${ts}" | tee out/heartbeat.txt
+          echo "## Heartbeat" >> "$GITHUB_STEP_SUMMARY"
+          echo "- timestamp (UTC): ${ts}" >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: heartbeat
+          path: out/heartbeat.txt

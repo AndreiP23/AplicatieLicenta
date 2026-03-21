@@ -1,0 +1,53 @@
+name: Monitoring Signals
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["**"]
+
+permissions:
+  contents: read
+
+jobs:
+  success_job:
+    runs-on: ubuntu-latest
+    outputs:
+      signal: ${{ steps.out.outputs.signal }}
+    steps:
+      - name: Output signal
+        id: out
+        shell: bash
+        run: |
+          echo "signal=ok" >> "$GITHUB_OUTPUT"
+          echo "## success_job" >> "$GITHUB_STEP_SUMMARY"
+          echo "- signal: ok" >> "$GITHUB_STEP_SUMMARY"
+
+  failure_job:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - name: Intentional failure (for monitoring)
+        shell: bash
+        run: |
+          echo "Failing intentionally with exit 42"
+          exit 42
+
+  after_all:
+    runs-on: ubuntu-latest
+    needs: [success_job, failure_job]
+    if: always()
+    steps:
+      - name: Write results file
+        shell: bash
+        run: |
+          mkdir -p out
+          {
+            echo "success_job.result=${{ needs.success_job.result }}"
+            echo "failure_job.result=${{ needs.failure_job.result }}"
+            echo "success_job.signal=${{ needs.success_job.outputs.signal }}"
+          } > out/results.txt
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: monitoring-results
+          path: out/results.txt

@@ -1,0 +1,90 @@
+name: .NET CI
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+    branches: ["**"]
+
+permissions:
+  contents: read
+
+jobs:
+  build_test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        dotnet: ["8.0.x", "7.0.x"]
+
+    outputs:
+      dotnet_version: ${{ steps.meta.outputs.dotnet_version }}
+      sha: ${{ steps.meta.outputs.sha }}
+      solutions_found: ${{ steps.meta.outputs.solutions_found }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Meta (outputs)
+        id: meta
+        shell: bash
+        run: |
+          echo "dotnet_version=${{ matrix.dotnet }}" >> "$GITHUB_OUTPUT"
+          echo "sha=${GITHUB_SHA}" >> "$GITHUB_OUTPUT"
+          sol_count=$(ls -1 **/*.sln 2>/dev/null | wc -l | tr -d ' ')
+          echo "solutions_found=${sol_count}" >> "$GITHUB_OUTPUT"
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: ${{ matrix.dotnet }}
+
+      - name: Restore
+        shell: bash
+        run: |
+          if ls **/*.sln 1>/dev/null 2>&1; then
+            dotnet restore **/*.sln
+          else
+            dotnet restore
+          fi
+
+      - name: Build
+        shell: bash
+        run: |
+          if ls **/*.sln 1>/dev/null 2>&1; then
+            dotnet build **/*.sln -c Release --no-restore
+          else
+            dotnet build -c Release --no-restore
+          fi
+
+      - name: Test (best effort)
+        shell: bash
+        run: |
+          set -e
+          # Runs tests if test projects exist; if none, don’t fail the workflow.
+          if ls **/*Test*.csproj 1>/dev/null 2>&1 || ls **/*Tests*.csproj 1>/dev/null 2>&1; then
+            dotnet test -c Release --no-build --logger "trx;LogFileName=test-results.trx"
+          else
+            echo "No *Test*/*.Tests* projects found; skipping dotnet test."
+          fi
+
+      - name: Create artifact
+        shell: bash
+        run: |
+          mkdir -p out
+          {
+            echo "repo=${GITHUB_REPOSITORY}"
+            echo "ref=${GITHUB_REF}"
+            echo "sha=${GITHUB_SHA}"
+            echo "dotnet=${{ matrix.dotnet }}"
+            echo "solutions_found=${{ steps.meta.outputs.solutions_found }}"
+          } > out/summary.txt
+
+      - name: Upload artifact (summary + any TRX)
+        uses: actions/upload-artifact@v4
+        with:
+          name: dotnet-ci-${{ matrix.dotnet }}
+          path: |
+            out/summary.txt
+            **/*.trx
+          if-no-files-found: ignore
